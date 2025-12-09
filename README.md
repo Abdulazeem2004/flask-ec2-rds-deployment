@@ -176,7 +176,7 @@ SELECT * FROM messages;
 The screenshots below illustrate the application and database interactions:
 
 ```markdown
-![Database PG](extracted_images/Myproject/database pg.png)
+![Database PG](images/database_pg.png)
 ![DB](extracted_images/Myproject/db.png)
 ![EC2 Instance](extracted_images/Myproject/instance.png)
 ![Logs](extracted_images/Myproject/logs.png)
