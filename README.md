@@ -120,9 +120,8 @@ CREATE TABLE contact_messages (
     message TEXT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-![SQL](images/sql.png)
 ```
-
+![SQL](images/sql.png)
 ## API Endpoints
 
 | Method | Endpoint        | Description               |
