@@ -181,9 +181,10 @@ The screenshots below illustrate the application and database interactions:
 ![Database PG](images/database_pg.png)
 ![DB](images/db.png)
 ![EC2 Instance](images/instance.png)
-![Logs](images/logs.png)
-![Screenshot1](images/Screenshot_2025-12-09_111418.png)
+![Logs](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/logs.png)
+
+![EC2 Instance](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/instance.png)
 ![Screenshot2](images/Screenshot_2025-12-09_111622.png)
 ![Screenshot3](images/Screenshot_2025-12-09_112135.png)
-![SSH](images/ssh.png)
+![SSH](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/ssh.png)
 
