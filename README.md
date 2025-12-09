@@ -121,7 +121,7 @@ CREATE TABLE contact_messages (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
-![SQL](images/sql.png)
+![SQL](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/sql.png)
 ## API Endpoints
 
 | Method | Endpoint        | Description               |
