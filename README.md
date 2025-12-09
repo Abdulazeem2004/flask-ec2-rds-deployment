@@ -172,17 +172,15 @@ SELECT * FROM messages;
 * Add authentication and logging
 
 ## Screenshots
-
 The screenshots below illustrate the application and database interactions:
 
-```markdown
 ![Database PG](images/database_pg.png)
-![DB](extracted_images/Myproject/db.png)
-![EC2 Instance](extracted_images/Myproject/instance.png)
+![DB](images/db.png)
+![EC2 Instance](images/instance.png)
 ![Logs](images/logs.png)
-![Screenshot1](extracted_images/Myproject/Screenshot 2025-12-09 111418.png)
-![Screenshot2](extracted_images/Myproject/Screenshot 2025-12-09 111622.png)
-![Screenshot3](extracted_images/Myproject/Screenshot 2025-12-09 112135.png)
-![SQL](extracted_images/Myproject/sql.png)
-![SSH](extracted_images/Myproject/ssh.png)
-```
+![Screenshot1](images/Screenshot_2025-12-09_111418.png)
+![Screenshot2](images/Screenshot_2025-12-09_111622.png)
+![Screenshot3](images/Screenshot_2025-12-09_112135.png)
+![SQL](images/sql.png)
+![SSH](images/ssh.png)
+
