@@ -30,7 +30,9 @@ The application flow is:
 
 ```
 Client Browser → EC2 Instance (Flask + Gunicorn) → AWS RDS (MariaDB)
+
 ```
+![architectural diagram](
 
 ## Features
 
@@ -103,19 +105,22 @@ gunicorn --bind 0.0.0.0:5000 app:app
 
 ```bash
 sudo yum install mariadb105
-mysql -h <rds-endpoint> -u <username> -p
+mysql -h mydb.c3208wyo6crt.af-south-1.rds.amazonaws.com -u admin -p
 ```
 
 * Example schema:
 
 ```sql
 CREATE DATABASE mydb;
-USE mydb;
-CREATE TABLE messages (
+USE mydatabase;
+CREATE TABLE contact_messages (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    content VARCHAR(255),
-    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    message TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 ```
 
 ## API Endpoints
@@ -125,7 +130,7 @@ CREATE TABLE messages (
 | GET    | `/`             | Returns homepage string   |
 | GET    | `/api/hello`    | Sample API endpoint       |
 | POST   | `/api/save`     | Saves data to RDS         |
-| GET    | `/api/messages` | Retrieves all stored data |
+
 
 Actual endpoints:
 
