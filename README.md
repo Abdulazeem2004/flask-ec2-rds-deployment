@@ -179,7 +179,7 @@ The screenshots below illustrate the application and database interactions:
 ![Database PG](images/database_pg.png)
 ![DB](extracted_images/Myproject/db.png)
 ![EC2 Instance](extracted_images/Myproject/instance.png)
-![Logs](extracted_images/Myproject/logs.png)
+![Logs](images/logs.png)
 ![Screenshot1](extracted_images/Myproject/Screenshot 2025-12-09 111418.png)
 ![Screenshot2](extracted_images/Myproject/Screenshot 2025-12-09 111622.png)
 ![Screenshot3](extracted_images/Myproject/Screenshot 2025-12-09 112135.png)
