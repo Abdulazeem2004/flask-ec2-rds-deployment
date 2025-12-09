@@ -120,7 +120,7 @@ CREATE TABLE contact_messages (
     message TEXT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
+![SQL](images/sql.png)
 ```
 
 ## API Endpoints
@@ -186,6 +186,5 @@ The screenshots below illustrate the application and database interactions:
 ![Screenshot1](images/Screenshot_2025-12-09_111418.png)
 ![Screenshot2](images/Screenshot_2025-12-09_111622.png)
 ![Screenshot3](images/Screenshot_2025-12-09_112135.png)
-![SQL](images/sql.png)
 ![SSH](images/ssh.png)
 
