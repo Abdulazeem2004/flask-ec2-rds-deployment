@@ -32,7 +32,7 @@ The application flow is:
 Client Browser → EC2 Instance (Flask + Gunicorn) → AWS RDS (MariaDB)
 
 ```
-![architectural diagram](
+![architectural diagram](images/architecture.png)
 
 ## Features
 
