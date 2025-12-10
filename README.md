@@ -32,7 +32,7 @@ The application flow is:
 Client Browser → EC2 Instance (Flask + Gunicorn) → AWS RDS (MariaDB)
 
 ```
-![architectural diagram]((https://github.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/architecture.png))
+![architectural diagram]((https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/architecture.png))
 
 ## Features
 
