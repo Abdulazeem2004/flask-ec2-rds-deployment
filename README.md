@@ -16,7 +16,7 @@
 * [Testing](#testing)
 * [Challenges & Fixes](#challenges--fixes)
 * [Future Improvements](#future-improvements)
-* [Screenshots](#screenshots)
+
 
 ---
 
@@ -121,7 +121,7 @@ CREATE TABLE contact_messages (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
-![SQL](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/sql.png)
+
 ## API Endpoints
 
 | Method | Endpoint        | Description               |
@@ -175,20 +175,4 @@ SELECT * FROM messages;
 * Containerize using Docker
 * Add authentication and logging
 
-## Screenshots
-The screenshots below illustrate the application and database interactions:
-
-![Database PG](images/database_pg.png)
-![DB](images/db.png)
-![EC2 Instance](images/instance.png)
-![Logs](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/logs.png)
-
-![EC2 Instance](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/instance.png)
-![Screenshot 1](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/Screenshot%202025-12-09%20111418.png)
-![Screenshot 2](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/Screenshot%202025-12-09%20111622.png)
-![Screenshot 3](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/Screenshot%202025-12-09%20112135.png)
-![Screenshot 4](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/Screenshot%202025-12-09%20113044.png)
-![Screenshot 5](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/Screenshot%202025-12-09%20124853.png)
-
-![SSH](https://raw.githubusercontent.com/Abdulazeem2004/flask-ec2-rds-deployment/assets/images/ssh.png)
 
